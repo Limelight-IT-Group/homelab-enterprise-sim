@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.env
+.env.*
+.venv
+venv/
+# Secrets
+*.key
+*.pem
+secrets/
+credentials/
+# Vagrant / VMs
+.vagrant/
+*.vmdk
+*.ova
+*.iso
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+# Editors
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+# Logs
+*.log
+logs/
+tmp/
